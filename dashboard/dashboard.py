@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # Load data
 def load_data():
-    data = pd.read_csv("dashboard/main_data.csv")
+    data = pd.read_csv("main_data.csv")
     return data
 
 bike_data = load_data()
